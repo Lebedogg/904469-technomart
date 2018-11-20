@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Ян Лебединский](https://up.htmlacademy.ru/htmlcss/23/user/904469).
-* Наставник: .
+* Наставник: [Наталья Налимова](https://htmlacademy.ru/profile/tuetfe).
 
 ---
 
