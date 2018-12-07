@@ -7,11 +7,11 @@
   <body>
       <header class="main-header">
           <nav class="usless-navigation">
-              <img src="http://placehold.it/150x100" alt="Здесь был логотип">
+              <a href="index.html"><img src="http://placehold.it/150x100" alt="Техномарт"></a>
             <ul>
-            <li><a href="bookmark.html">Закладки:0</a></li>
-            <li><a href="bucket.html">Корзина:0</a></li>
-            <li><a href="order.html">Оформить заказ</a></li>
+            <li><a href="#">Закладки:0</a></li>
+            <li><a href="#">Корзина:0</a></li>
+            <li><a href="#">Оформить заказ</a></li>
               </ul>
               <p>Равшан Джамшутович</p>
                   <a href="#">Мои заказы</a>
@@ -22,13 +22,13 @@
           <a href="tel:+78125550555">+7 (812) 555-05-55</a>
             <span>г.Санкт-Петербург, ул.Б.Конюшенная,д 19/8</span>
           <ul class="site-navigation">
-          <li><a href="main.html">Главная</a></li>
-          <li><a href="company.html">Компания</a></li>
-          <li><a href="keksalog.html">Каталог</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="best.html">Спецпредложения</a></li>
-          <li><a href="delivery.html">Доставка</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Спецпредложения</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
           </ul>
       </header>
       <main class="main-container">
@@ -39,21 +39,24 @@
            <li><a href="#">Перфораторы</a></li> 
         </ul>
           <h1>Перфораторы</h1>
-          <section class="filter">
-          <!--Для фильтра с ползунком-->
-          </section>
           <section class="sort">
           <!--Для сортировки массива-->
           </section>
+          <form>
+          <section class="filter">
+          <!--Для фильтра с ползунком-->
+          </section>
           <p>Производители:</p>
           <section class="produsers"></section>
+         <p>Питание:</p>
           <section class="eating"></section>
-          <input type="button" value="Показать">
+          <input type="submit" value="Показать">
+          </form>
           <section class="range">
           <article class="Bosch-3000">
               <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
-              <p>Префоратор BOSCH<br>BFG 3000</p>
-              <p class="old-price"><del>22500</del></p>
+              <p>Префоратор BOSCH BFG 3000</p>
+              <p class="old-price">22500</p>
               <span class="price">15500 Р.</span>
               <section class="hidden">
               <a href="#">Купить</a>
@@ -62,8 +65,8 @@
               </article>
               <article class="Bosch-6000">
               <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
-              <p>Префоратор BOSCH<br>BFG 6000</p>
-              <p class="old-price"><del>30500</del></p>
+              <p>Префоратор BOSCH BFG 6000</p>
+              <p class="old-price">30500</p>
               <span class="price">25500 Р.</span>
                    <section class="hidden">
               <a href="#">Купить</a>
@@ -72,7 +75,38 @@
               </article>
               <article class="Bosch-2000">
               <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
-              <p>Префоратор BOSCH<br>BFG 2000</p>
+              <p>Префоратор BOSCH BFG 2000</p>
+              <span class="price">15500 Р.</span>
+                    <section class="hidden">
+              <a href="#">Купить</a>
+              <a href="#">В закладки</a>
+              </section>
+                  <span>New</span>
+              </article>
+               <article class="Bosch-3000">
+              <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
+              <p>Префоратор BOSCH BFG 3000</p>
+              <p class="old-price">22500</p>
+              <span class="price">15500 Р.</span>
+              <section class="hidden">
+              <a href="#">Купить</a>
+              <a href="#">В закладки</a>
+              </section>
+              </article>
+              <article class="Bosch-6000">
+              <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
+              <p>Префоратор BOSCH BFG 6000</p>
+              <p class="old-price">30500</p>
+              <span class="price">25500 Р.</span>
+                   <section class="hidden">
+              <a href="#">Купить</a>
+              <a href="#">В закладки</a>
+              </section> 
+                  <span>New</span>
+              </article>
+              <article class="Bosch-2000">
+              <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
+              <p>Префоратор BOSCH BFG 2000</p>
               <span class="price">15500 Р.</span>
                     <section class="hidden">
               <a href="#">Купить</a>
@@ -81,18 +115,19 @@
               </article>
                <article class="Bosch-3000">
               <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
-              <p>Префоратор BOSCH<br>BFG 3000</p>
-              <p class="old-price"><del>22500</del></p>
+              <p>Префоратор BOSCH BFG 3000</p>
+              <p class="old-price">22500</p>
               <span class="price">15500 Р.</span>
               <section class="hidden">
               <a href="#">Купить</a>
               <a href="#">В закладки</a>
               </section>
+                   <span>New</span>
               </article>
               <article class="Bosch-6000">
               <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
-              <p>Префоратор BOSCH<br>BFG 6000</p>
-              <p class="old-price"><del>30500</del></p>
+              <p>Префоратор BOSCH BFG 6000</p>
+              <p class="old-price">30500</p>
               <span class="price">25500 Р.</span>
                    <section class="hidden">
               <a href="#">Купить</a>
@@ -101,36 +136,7 @@
               </article>
               <article class="Bosch-2000">
               <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
-              <p>Префоратор BOSCH<br>BFG 2000</p>
-              <span class="price">15500 Р.</span>
-                    <section class="hidden">
-              <a href="#">Купить</a>
-              <a href="#">В закладки</a>
-              </section>
-              </article>
-               <article class="Bosch-3000">
-              <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
-              <p>Префоратор BOSCH<br>BFG 3000</p>
-              <p class="old-price"><del>22500</del></p>
-              <span class="price">15500 Р.</span>
-              <section class="hidden">
-              <a href="#">Купить</a>
-              <a href="#">В закладки</a>
-              </section>
-              </article>
-              <article class="Bosch-6000">
-              <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
-              <p>Префоратор BOSCH<br>BFG 6000</p>
-              <p class="old-price"><del>30500</del></p>
-              <span class="price">25500 Р.</span>
-                   <section class="hidden">
-              <a href="#">Купить</a>
-              <a href="#">В закладки</a>
-              </section> 
-              </article>
-              <article class="Bosch-2000">
-              <img src="http://placehold.it/150x100" alt="Здесь был перфоратор BOSCH">
-              <p>Префоратор BOSCH<br>BFG 2000</p>
+              <p>Префоратор BOSCHBFG 2000</p>
               <span class="price">15500 Р.</span>
                     <section class="hidden">
               <a href="#">Купить</a>
@@ -140,7 +146,7 @@
           </section>
       </main>
       <footer class="footer">
-      <img src="http://placehold.it/150x100" alt="Здесь был логотип">
+      <a href="index.html"><img src="http://placehold.it/150x100" alt="Техномарт"></a>
           <section class="footerMainInfo">
           <ul class="footerNav">
           <li><a href="#">Компания</a></li>
@@ -163,8 +169,8 @@
             </p>
               <ul class="sotialNetworks">
                   <li><a href="#">Vk</a></li>
-          <li><a href="#">f</a></li>
-          <li><a href="#">Камера</a></li>
+          <li><a href="#">fb</a></li>
+          <li><a href="#">inst</a></li>
               </ul>
               <p class="writeUs">
               Обратная связь:
